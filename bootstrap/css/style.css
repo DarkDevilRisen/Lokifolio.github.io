@@ -106,3 +106,20 @@ html {
    text-align: center;
    height: 5px;
 }
+
+You should be more specific with what you need, but I think this helps:
+
+@media screen and (max-width:768px) {
+img {
+    width:100%;
+}
+.container {
+    max-width:100%;
+    width: 100%;
+}
+.col-sm-3{
+    width:100%;
+    float:left;
+    margin:0;
+}
+}
